@@ -1,7 +1,7 @@
 <h1 align = "center"> ❝𝐓𝐡𝐞 𝐌𝐨𝐬𝐭 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭❞ </h1>
 
 
-<p align = "center"><a herf = "https://t.me/Zaid2_Ro_bot" alt = "Zaid"><img src = "https://telegra.ph/file/9ddae7a1ff3bc34e66418.png" width = "900"></a></p>
+<p align = "center"><a herf = "http://t.me/Sriki_RoBot" alt = "Zaid"><img src = "https://telegra.ph/file/27c66b0dbb30fa6979f96.jpg" width = "900"></a></p>
 
 <p align = "center">
 <a href = "https://python.org">
@@ -14,9 +14,6 @@
 <img src = "https://forthebadge.com/images/badges/open-source.svg">
 </p>
 </a>
-
-## 🅡🅔🅟🅞 🅢🅣🅐🅣🅢
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=Itsunknown-12&repo=Zaid-Robot&theme=dark)
 
 ## 🅓🅔🅟🅛🅞🅨
 [![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itsunknown-12/TGN-Robot)
@@ -34,5 +31,3 @@
 
  - [Saitama Robot](https://github.com/AnimeKaizoku/SaitamaRobot)
  - [Layla Bot](https://github.com/QueenArzoo/LaylaRobot) For Help Modules🙄
-
-
