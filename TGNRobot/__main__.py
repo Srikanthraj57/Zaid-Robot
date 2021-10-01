@@ -74,44 +74,41 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
+ʜᴏɪ, I am Sriki ROBOT
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ @The\_Godfather\_Network [❤](https://telegra.ph/file/655ab2c4cbbe99d503864.jpg)
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Srikanth_36 [❤](https://telegra.ph/file/27c66b0dbb30fa6979f96.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/Sriki_RoBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
+        InlineKeyboardButton(text="Owner❤️", url=f"https://t.me/Srikanth_36"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/we_all_are_best_friends"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴅᴇᴠꜱ", url=f"https://t.me/TGN_DEV"),
-        InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
-        ),
-    ],
-    [
+        InlineKeyboardButton(text="Updates", url=f"https://t.me/legend_friends_Updates"),
+        
+    ], 
         InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜᴏɪ, ɪ ᴍ` ᴛɢɴ ʀᴏʙᴏᴛ
+`ʜᴏɪ, ɪ ᴍ` Sriki ʀᴏʙᴏᴛ
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴄᴍᴅꜱ ᴀɴᴅ ᴍᴏᴅᴜʟᴇꜱ...`
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- **@The\_Godfather\_Network** [❤️](https://telegra.ph/file/fde36758414c15fb21436.jpg)"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- **@Srikanth_36** [❤️](https://telegra.ph/file/27c66b0dbb30fa6979f96.jpg)"""
 
-layla_IMG = "https://telegra.ph/file/cc83751e23d42cd9e1883.jpg"
+layla_IMG = "https://telegra.ph/file/27c66b0dbb30fa6979f96.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Akki](t.me/godfatherakki) \
- Supporting isnt always financial! [ᴛɢɴ ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Godfather_Network) \
+ You can support the project [Srikanth](http://t.me/Sriki_RoBot) \
+ Supporting isnt always financial! [legend Updates](https://t.me/legend_friends_Updates) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -357,7 +354,7 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *TGN Robot*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Legend Robot*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -365,7 +362,7 @@ def layla_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_TGN's licensed under the GNU General Public License v3.0_
-                 \n❍ TGN  @The_Godfather_Network
+                 \n❍ TGN  @we_all_are_best_friends
                  \n❍ Support Group @Godfathersupport
                  \n❍ Assistant @TGN_Assistant.
                  \nHere is the [💾Repository](https://github.com/Itsunknown-12/TGN-Robot).
