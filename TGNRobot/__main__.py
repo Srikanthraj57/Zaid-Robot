@@ -363,7 +363,7 @@ def layla_about_callback(update, context):
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_TGN's licensed under the GNU General Public License v3.0_
                  \n❍ TGN  @we_all_are_best_friends
-                 \n❍ Support Group @Godfathersupport
+                 \n❍ Support Group @we_all_are_best_friends
                  \n❍ Assistant @TGN_Assistant.
                  \nHere is the [💾Repository](https://github.com/Itsunknown-12/TGN-Robot).
                  \n\nIf you have any question about bot, let us know at .""",
